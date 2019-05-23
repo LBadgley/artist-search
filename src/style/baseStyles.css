@@ -1,0 +1,19 @@
+ul {
+  list-style: circle;
+  border: 5px groove darkgoldenrod;
+  padding: 20px;
+  background: rgba(255, 183, 0, 0.488);
+  text-decoration: none;
+}
+ul.a {
+  list-style-type: circle;
+}
+a.link {
+  color: black;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}

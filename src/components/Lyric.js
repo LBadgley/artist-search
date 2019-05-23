@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from '../style/lyricsStyle.css';
 
 function Lyric({ artist, title, lyrics }) {
   return (
-    <div>
-      <h2>{artist}</h2>
-      <h3>{title}</h3>
-      <p>{lyrics}</p>
+    <div className={styles.lyricsStyle}>
+      <h2 className={styles.lyricsStyle}>{artist}</h2>
+      <h3 className={styles.lyricsStyle}>{title}</h3>
+      <p className={styles.lyricsStyle}>{lyrics}</p>
     </div>
   );
 }

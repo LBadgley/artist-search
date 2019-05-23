@@ -2,8 +2,10 @@
 
 exports[`Releases test renders the Releases 1`] = `
 <ul>
+  <p />
   <li
     key="dsfds"
+    style="li"
   >
     <Release
       releaseId="dsfds"

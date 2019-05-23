@@ -12,7 +12,9 @@ function Songs({ songs, artist }) {
   });
 
   return (
-    <ul>{songList}</ul>
+    <div>
+      <ul>{songList}</ul>
+    </div>
   );
 }
 

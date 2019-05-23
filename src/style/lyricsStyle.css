@@ -1,0 +1,50 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+}
+form {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+h1 {
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  justify-content: center;
+  border: 1px solid goldenrod;
+  margin: 20px;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+  margin: auto;
+  padding: auto;
+  border: 6px groove darkgoldenrod;
+  background-color: goldenrod;
+}
+p {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px dashed darkgoldenrod;
+  padding: 10px;
+  width: 250px;
+
+}

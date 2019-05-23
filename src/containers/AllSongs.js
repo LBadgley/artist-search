@@ -24,7 +24,7 @@ export default class AllSongs extends PureComponent {
     const { songs, artist } = this.state;
     return (
       <>
-       {songs && <Songs songs={songs} artist={artist} />}
+          {songs && <Songs songs={songs} artist={artist} />}
       </>
     );
   }

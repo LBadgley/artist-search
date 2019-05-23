@@ -14,10 +14,8 @@ export default class Lyrics extends PureComponent {
   }
 
   componentDidMount() {
-    console.log('should did update');
     fetchLyrics(this.state.artist, this.state.title)
       .then(res => {
-        console.log(res);
         this.setState({ lyrics: res.lyrics });
       });
   }

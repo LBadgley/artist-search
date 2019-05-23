@@ -5,6 +5,7 @@ exports[`release test renders the release 1`] = `
   to="/songs/undefined/undefined"
 >
   <img
+    className="releasesStyles"
     src="undefined"
     width="100px"
   />
